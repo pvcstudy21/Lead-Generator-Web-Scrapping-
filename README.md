@@ -1,1 +1,23 @@
-This repository contains a Python script for automating the extraction of LinkedIn profile data for product managers using Selenium and BeautifulSoup. The script logs into LinkedIn, navigates to a search page, and scrapes profile links, names, titles, and locations, storing the data in a CSV file. It requires Python, ChromeDriver, and libraries like selenium, beautifulsoup4, and pandas. Simply update the ChromeDriver path in the script, log in to LinkedIn manually when prompted, and the script will handle data collection. Ensure compliance with LinkedIn's terms of service and respect user privacy while using this tool.
+Problem Statement:
+The goal of this project is to gather leads from LinkedIn based on specific criteria, focusing on product managers in Pune (It can be changed accordingly). This information will help identify potential prospects and clients.
+
+Approach:
+
+1) Learning Web Scraping:
+Studied the basics of web scraping.
+Learned how to use Beautiful Soup and Selenium WebDriver.
+Practiced inspecting web elements and extracting data with Beautiful Soup.
+
+2) Developing the Solution:
+Created a script to automate the extraction of leads from LinkedIn.
+Configured the script to find profiles of product managers in Pune.
+
+3) Data Extraction and Formatting:
+Extracted data including name, profile link, title, and location.
+Organized the data into a structured format.
+
+4) Output:
+Converted the extracted data into a CSV file for easy access and analysis.
+
+Conclusion:
+This project provided hands-on experience with web scraping, data extraction, and data formatting. The approach can be adapted to extract leads from LinkedIn for different job titles and locations.
